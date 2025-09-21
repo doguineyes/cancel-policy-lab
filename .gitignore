@@ -1,0 +1,39 @@
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+*.tmp
+
+# Python packaging
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Environments / IDEs
+.idea/
+.vscode/
+
+# Data (optional — if you have large/private files)
+data/*.json
+data/*.csv
+data/*.xlsx
+
+# If you want to keep small sample files in data/, you can whitelist them:
+# !data/sample_*.json
+
