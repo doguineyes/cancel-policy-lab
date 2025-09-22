@@ -1,0 +1,37 @@
+[
+  {
+    "_id": {"$oid": "66ed66ad7403f839a60485d2"},
+    "details": "{cancelPolicy=CXL: NO CANCELLATION CHARGE APPLIES PRIOR TO 18:00 LOCAL TIME UP\nTO 2 DAYS PRIOR TO ARRIVAL. BEYOND THAT TIME THE FIRST NIGHT\nWILL BE CHARGED.}",
+    "no": "104361"
+  },
+  {
+    "_id": {"$oid": "66ed66dc7403f839a60485d3"},
+    "details": "{cancelPolicy=CXL: NO CANCELLATION CHARGE APPLIES PRIOR TO 18:00 LOCAL TIME UP\nTO 2 DAYS PRIOR TO ARRIVAL. BEYOND THAT TIME THE FIRST NIGHT\nWILL BE CHARGED.}",
+    "no": "104362"
+  },
+  {
+    "_id": {"$oid": "66ee3dde7403f839a60485dc"},
+    "details": "{cancelPolicy=CXL: 72H PRIOR OR 1NT FEE/ 1NT DEPOSIT AT BOOKING}",
+    "no": "104368"
+  },
+  {
+    "_id": {"$oid": "66eeb8c03f1d45bc94005075"},
+    "details": "{cancelPolicy=CXL: 72H PRIOR OR 1NT FEE/ 1NT DEPOSIT AT BOOKING}",
+    "no": "104369"
+  },
+  {
+    "_id": {"$oid": "673d9e47d878c2f5b02ac8ba"},
+    "details": "{cancelPolicy=isCancellable: unknown\ncancellationText: CXL: 12840.00 THB CXL FEE PER ROOM CANCELLATION PERMITTED UP TO, 1DAYS BEFORE ARRIVAL\ncancelDeadline: Invalid Date}",
+    "no": "105062"
+  },
+  {
+    "_id": {"$oid": "673dbc67d878c2f5b02ac8c6"},
+    "details": "{cancelPolicy=isCancellable: true\ncancelDeadline: 2025-01-01 18:00:00\ncancellationText: CXL: PENALTY AMOUNT 4294.00 CANCEL BY 2025-01-01T18:00:00 CXL, AFTER 1800 01JAN FORFEIT ONE NITE STAY}",
+    "no": "105069"
+  },
+  {
+    "_id": {"$oid": "673dc1fed878c2f5b02ac8c7"},
+    "details": "{cancelPolicy=isCancellable: false\ncancelDeadline: Invalid Date}",
+    "no": "105070"
+  }
+]
