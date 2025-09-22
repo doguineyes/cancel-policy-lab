@@ -1,0 +1,175 @@
+version: v1
+
+# Aggressive: use for EDA (token frequency, word clouds)
+eda_stopwords:
+  general:
+    - THE
+    - TO
+    - BY
+    - OF
+    - IF
+    - OR
+    - AND
+    - WITH
+    - FOR
+    - NOT
+    - "NO"
+    - "ON"
+    - AS
+    - THAT
+    - THIS
+    - MAY
+    - WILL
+    - PLEASE
+    - FIRST
+    - ALWAYS
+    - UNKNOWN
+    - INVALID
+    - DATE
+    - TIME
+    - IS
+    - BE
+    - BEYOND
+    - INCLUDING
+    - IN
+    - FROM
+    - AT
+    - MADE
+    - DUE
+    - EVEN
+    - NOTE
+    - SEE
+    - RULES
+    - POLICY
+    - POLICIES
+    - DESCRIPTION
+    - RESULT
+    - APPLIED
+    - APPLY
+    - ALLOWED
+    - SELECTED
+    - SPECIAL
+    - SERVICE
+    - SERVICES
+    - PAY
+    - PAYMENT
+    - CHARGE
+    - CHARGED
+    - CHARGES
+    - CREDIT
+    - CARD
+    - BOOK
+    - BOOKING
+    - BOOKINGS
+    - RESERVATION
+    - RESERVATIONS
+    - MODIFY
+    - MODIFIED
+    - AMENDMENT
+    - AMENDMENTS
+    - CHANGES
+    - CANCELED
+    - CANCELLED
+    - CANCELLATIONS
+    - SHOW
+    - SHOWS
+    - NOSHOW
+
+  metadata_fields:   # keys from your blob; never meaningful content
+    - ISCANCELLABLE
+    - CANCELLATIONTEXT
+    - CANCELDEADLINE
+    - "TRUE"
+    - "FALSE"
+    - UNKNOWN
+    - ISODATETIME
+
+  months:            # short month tokens you saw
+    - JAN
+    - FEB
+    - MAR
+    - APR
+    - MAY
+    - JUN
+    - JUL
+    - AUG
+    - SEP
+    - OCT
+    - NOV
+    - DEC
+
+  currencies:        # common currency codes you surfaced
+    - HKD
+    - USD
+    - CNY
+    - JPY
+    - EUR
+    - GBP
+    - MOP
+    - TWD
+    - THB
+    - SGD
+    - AUD
+    - KRW
+    - MYR
+    - VND
+    - IDR
+    - CAD
+    - AED
+
+  units_and_timewords:  # include for EDA only — keep for parsing!
+    - DAY
+    - DAYS
+    - NIGHT
+    - NIGHTS
+    - NITE
+    - NT
+    - HRS
+    - HR
+    - AM
+    - PM
+    - LOCAL
+    - UNTIL
+    - BEFORE
+    - AFTER
+    - PRIOR
+    - ARRIVAL
+    - ARR
+
+  hotel_noise:       # irrelevant to cancellation semantics in most lines
+    - HTL
+    - ROOM
+    - ROOMS
+    - SUITE
+    - SUITES
+    - VILLA
+    - VILLAS
+
+# Conservative: visible-only filtering, do NOT remove tokens needed for rules
+parser_display_stopwords:
+  - THE
+  - TO
+  - BY
+  - OF
+  - IF
+  - OR
+  - AND
+  - WITH
+  - FOR
+  - NOT
+  - "NO"
+  - "ON"
+  - AS
+  - THAT
+  - THIS
+  - MAY
+  - WILL
+  - PLEASE
+  - UNKNOWN
+  - INVALID
+  - DATE
+  - IS
+  - BE
+  - CANCELLATIONTEXT
+  - CANCELDEADLINE
+  - ISCANCELLABLE
